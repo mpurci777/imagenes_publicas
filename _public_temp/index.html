@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IAFLOW — Assets</title>
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --accent:#6ee7b7;
+    }
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071028 0%, #071827 100%);color:#e6eef6}
+    .wrap{max-width:980px;margin:32px auto;padding:28px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6);}
+    header{display:flex;align-items:center;gap:18px}
+    header h1{margin:0;font-size:20px}
+    .grid{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;justify-content:center}
+    .card{background:var(--card);padding:14px;border-radius:10px;min-width:180px;max-width:260px;text-align:center;box-shadow:0 4px 18px rgba(2,6,23,0.45)}
+    .card img{max-width:100%;height:auto;border-radius:10px}
+    .small{font-size:13px;color:var(--muted);margin-top:8px}
+    .avatar-preview{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:28px}
+    .avatar-preview img{width:140px;height:140px;object-fit:cover;border-radius:50%;border:4px solid rgba(255,255,255,0.06);background:#071827}
+    footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+    a.link{color:var(--accent);text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>IAFLOW — Assets públicos</h1>
+    </header>
+
+    <p class="small">Las imágenes están servidas desde la carpeta <strong>public</strong>. Abrir la URL directa para confirmar disponibilidad.</p>
+
+    <div class="grid">
+      <div class="card">
+        <img src="logo_iaflow.png" alt="logo iaflow" />
+        <div class="small">logo_iaflow.png — URL: <a class="link" href="logo_iaflow.png" target="_blank">/logo_iaflow.png</a></div>
+      </div>
+
+      <div class="card">
+        <img src="logo_iaflow.png" alt="logo airflow" />
+        <div class="small">logo_iaflow.png — URL: <a class="link" href="logo_iaflow.png" target="_blank">/logo_iaflow.png</a></div>
+      </div>
+
+      <div class="card">
+        <img src="iaflow_linkedin_hd.png" alt="airflow linkedin" />
+        <div class="small">iaflow_linkedin_hdp.png — URL: <a class="link" href="iaflow_linkedin_hdp.png" target="_blank">/iaflow_linkedin_hdp.png</a></div>
+      </div>
+
+      <div class="card">
+        <img src="nexo_zorro_avatar.png" alt="new zorro avatar" />
+        <div class="small">nexo_zorro_avatar.png — URL: <a class="link" href="new_zorro_avatar.png" target="_blank">/nexo_zorro_avatar.png</a></div>
+      </div>
+    </div>
+
+    <div class="avatar-preview">
+      <strong>Avatar del bot (usa la URL debajo en Flowise)</strong>
+      <img src="nexo_zorro_avatar.png" alt="avatar para el bot" />
+      <div class="small">URL pública del avatar: <a class="link" href="nexo_zorro_avatar.png" target="_blank">https://TU-DOMINIO.vercel.app/nexo_zorro_avatar.png</a></div>
+    </div>
+
+    <footer>
+      Commiteá y pusheá estos cambios. Luego verificá cada URL abriéndola en el navegador.
+    </footer>
+  </div>
+</body>
+</html>
